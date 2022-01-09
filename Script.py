@@ -1,15 +1,13 @@
 class script(object):
-    START_TXT = """Yo Yo ......
-
+    START_TXT = """<b>Yo Yo {}...
 𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍
 
 i𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇
+And Enjoy.....</b>
 
- And Enjoy.....
-
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ: <a href="https://t.me/Amrithfx"> 𝑨𝒎𝒓𝒊𝒕𝒉 </a>
+<b>©️MᴀɪɴᴛᴀɪɴᴇD Bʏ</b>: <a href="https://t.me/Amrithfx"> 𝑨𝒎𝒓𝒊𝒕𝒉 </a>
 """
-    HELP_TXT = """𝙷𝙴𝚈 {}
+    HELP_TXT = """𝘏𝘦𝘺 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
 <b>𝖬𝗒 𝖭𝖺𝗆𝖾- SCARLETT
