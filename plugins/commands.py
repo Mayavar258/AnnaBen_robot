@@ -70,9 +70,9 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔄 TRY AGAIN", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Join My Updates Channel After that Click "Try Again" to get the Movie🎥
+            text="**Join My Updates Channel After that Click Try Again to get the Movie🎥
 
-മൂവി ഫയൽ ലഭിക്കാൻ എന്റെ അപ്‌ഡേറ്റ് ചാനലിൽ ചേർന്ന ശേഷം "TRY AGAIN BUTTON" ക്ലിക്ക് ചെയ്യുക**",
+മൂവി ഫയൽ ലഭിക്കാൻ എന്റെ അപ്‌ഡേറ്റ് ചാനലിൽ ചേർന്ന ശേഷം TRY AGAIN BUTTON ക്ലിക്ക് ചെയ്യുക**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
