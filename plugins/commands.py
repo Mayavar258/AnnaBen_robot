@@ -67,10 +67,12 @@ async def start(client, message):
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("🔄 TRY AGAIN", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Join My Updates Channel After that Click "Try Again" to get the Movie🎥
+
+മൂവി ഫയൽ ലഭിക്കാൻ എന്റെ അപ്‌ഡേറ്റ് ചാനലിൽ ചേർന്ന ശേഷം "TRY AGAIN BUTTON" ക്ലിക്ക് ചെയ്യുക**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
